@@ -12,6 +12,7 @@
 		157E12592094B155005985B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E12572094B155005985B7 /* Main.storyboard */; };
 		157E125B2094B156005985B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E125A2094B156005985B7 /* Assets.xcassets */; };
 		157E125E2094B156005985B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E125C2094B156005985B7 /* LaunchScreen.storyboard */; };
+		157E12662094B169005985B7 /* DDPayPasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157E12652094B169005985B7 /* DDPayPasswordInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		157E125A2094B156005985B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157E125D2094B156005985B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157E125F2094B156005985B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157E12652094B169005985B7 /* DDPayPasswordInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDPayPasswordInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		157E12522094B155005985B7 /* DDPayPasswordInputView */ = {
 			isa = PBXGroup;
 			children = (
+				157E12652094B169005985B7 /* DDPayPasswordInputView.swift */,
 				157E12532094B155005985B7 /* AppDelegate.swift */,
 				157E12552094B155005985B7 /* ViewController.swift */,
 				157E12572094B155005985B7 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				157E12562094B155005985B7 /* ViewController.swift in Sources */,
+				157E12662094B169005985B7 /* DDPayPasswordInputView.swift in Sources */,
 				157E12542094B155005985B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
